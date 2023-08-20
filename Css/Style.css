@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#game {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 700px;
+	border: solid black 5px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+#Score {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.25vmax;
+}
+
+#over, #Pause {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 4vmax;
+	font: bold;
+}
+
+#Result {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5vmax;
+	font: bold;
+} 
+
+#PlayAgain {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25%;
+	height: 7%;
+	font-size: 1.25vmax;
+	background-color: gray;
+}
+
+#Guidance {
+	position: absolute;
+	font-size: 1.50vmax;
+}
